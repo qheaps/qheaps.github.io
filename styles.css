@@ -1,0 +1,230 @@
+#page-content {
+    background-color: #2d3439;
+    width: 100%;
+    height: 100vh;
+}
+
+#about-me {
+    width: 100%;
+    height: 600px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+
+#about-me h1 {
+    font-size: 45px;
+    padding-bottom: 20px;
+    text-decoration-line: underline;
+}
+
+#about-me p {
+    font-size: 20px;
+}
+
+#text-area {
+    width: 50%;
+    height: 100%;
+    background-color: #1d1e2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#text-cont {
+    width: 90%;
+    height: 90%;
+    background-color: #1d1e2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#tech {
+    width: 50%;
+    height: 100%;
+    background-color: #1d1e2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.devicon-css3-plain-wordmark {
+    font-size: 100px;
+    color: white;
+    /* padding: auto; */
+}
+
+.devicon-html5-plain-wordmark {
+    font-size: 100px;
+    color: white;
+    /* padding: auto; */
+}
+
+.devicon-javascript-plain {
+    font-size: 100px;
+    color: white;
+    /* padding: auto; */
+}
+
+.devicon-axios-plain {
+    font-size: 100px;
+    color: white;
+    /* padding: auto; */
+}
+
+.devicon-sequelize-plain {
+    font-size: 100px;
+    color: white;
+    /* padding: auto; */
+}
+
+.devicon-git-plain {
+    font-size: 100px;
+    color: white;
+    /* padding: auto; */
+}
+
+.devicon-postgresql-plain {
+    font-size: 100px;
+    color: white;
+    /* padding: auto; */
+}
+
+.devicon-python-plain {
+    font-size: 100px;
+    color: white;
+    /* padding: auto; */
+}
+
+#project-header {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: "DM Sans", sans-serif;
+    border-top: 2px solid #2d3439;
+    background-color: #1d1e2c;
+}
+
+#Cat-Cha {
+    width: 100%;
+    height: 500px;
+    background-color: #3c384d;
+    border-top: 2px solid #883997;
+    border-bottom: 2px solid #883997;
+    display: flex;
+    flex-direction: row;
+}
+
+#cc-logo-cont {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+#cc-logo-cont a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}
+
+#cc-logo {
+font-size: 80px;
+    text-align: center;
+    font-family: "Rubik";
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: #FBDCE2;
+    text-shadow: -2px 2px #ef3550,
+                 -4px 4px #f48fb1,
+                 -6px 6px #7e57c2,
+                 -8px 8px #2196f3,
+                 -10px 10px #26c6da,
+                 -12px 12px #43a047,
+                 -14px 14px #eeff41,
+                 -16px 16px #f9a825,
+                 -18px 18px #ff5722;
+}
+
+#cc-project-desc {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FBDCE2;
+    font-family: "Madimi One", monospace;
+    font-size: 20px;
+    
+}
+
+#cc-img-cont {
+    width: 30%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 10px;
+}
+
+#cc-img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* border-bottom: 2px solid #883997; */
+}
+
+#cc-img2 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#construction-zone {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    /* background-image: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        yellow 10px,
+        yellow 20px
+      );
+      -webkit-text-stroke: 1px black; */
+    border-top: 2px dashed yellow;
+    border-bottom: 2px dashed yellow;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#contact-section {
+    width: 100%;
+    height: 200px;
+    background-color: #26c6da;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+}
+
+.contact {
+    height: 100px;
+    width: 100px;
+    background-color: #7e57c2;
+}
